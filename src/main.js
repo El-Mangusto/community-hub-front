@@ -1,1 +1,5 @@
-document.getElementById("app").textContent = "Hello";
+import "./styles/style.css";
+import { RegisterPage } from "./pages/RegisterPage.js";
+
+const app = document.getElementById("app");
+RegisterPage(app);
