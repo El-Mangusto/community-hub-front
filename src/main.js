@@ -1,5 +1,5 @@
 import "./styles/style.css";
-import { RegisterPage } from "./pages/RegisterPage.js";
+import { LoginPage } from "./pages/LoginPage.js";
 
 const app = document.getElementById("app");
-RegisterPage(app);
+LoginPage(app);
